@@ -12,4 +12,4 @@ Disallow: /*?modal=*
 Allow: /Assets/
 
 # Sitemap for search engines
-Sitemap:  https://vibematchchat.onrender.com/sitemap.xml
+Sitemap: https://vibematchchat.onrender.com/sitemap.xml
