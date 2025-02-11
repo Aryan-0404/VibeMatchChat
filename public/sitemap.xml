@@ -6,7 +6,7 @@
     
     <!-- Homepage -->
     <url>
-        <loc>https://randomchat-t6a1.onrender.com/</loc>
+        <loc>https://vibematchchat.onrender.com/</loc>
         <lastmod>2025-02-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -14,7 +14,7 @@
     
     <!-- Chat Page -->
     <url>
-        <loc>https://randomchat-t6a1.onrender.com/chat</loc>
+        <loc>https://vibematchchat.onrender.com/</loc>
         <lastmod>2025-02-10</lastmod>
         <changefreq>always</changefreq>
         <priority>0.9</priority>
@@ -22,7 +22,7 @@
     
     <!-- About Page -->
     <url>
-        <loc>https://randomchat-t6a1.onrender.com/about</loc>
+        <loc>https://vibematchchat.onrender.com/about.html</loc>
         <lastmod>2025-02-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -30,7 +30,7 @@
     
     <!-- Contact Page -->
     <url>
-        <loc>https://randomchat-t6a1.onrender.com/contact</loc>
+        <loc>https://vibematchchat.onrender.com/contact.html</loc>
         <lastmod>2025-02-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -38,7 +38,7 @@
     
     <!-- Privacy Policy Page -->
     <url>
-        <loc>https://randomchat-t6a1.onrender.com/privacy</loc>
+        <loc>https://vibematchchat.onrender.com/privacy.html</loc>
         <lastmod>2025-02-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
