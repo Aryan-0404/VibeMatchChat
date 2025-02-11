@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Title -->
+    <title>Random Chat with Strangers in India | Free Anonymous Chat</title>
+    
+    <!-- SEO Meta Description -->
+    <meta name="description" content="VibeMatchChat is India's best free random chat platform. Connect with strangers anonymously, chat instantly, and make new friends without registration!">
+    
+    <!-- Keywords Optimization -->
+    <meta name="keywords" content="random chat India, anonymous chat, chat with strangers, free chat, Indian chat, secure chat, instant messaging, no sign-up chat">
+    
+    <!-- Author -->
+    <meta name="author" content="VibeMatchChat India">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon-16x16.png">
+<link rel="manifest" href="Assets/site.webmanifest">
+    
+    <!-- Open Graph for WhatsApp, Instagram, and Facebook -->
+    <meta property="og:title" content="VibeMatchChat - India's Best Anonymous Chat Platform">
+    <meta property="og:description" content="Chat instantly with strangers in India! No sign-ups, just pure chat fun. Try now!">
+    <meta property="og:image" content="https://randomchat-t6a1.onrender.com/Assets/instatwitter.jpg">
+    <meta property="og:url" content="https://randomchat-t6a1.onrender.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card for better previews -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VibeMatchChat - India's Best Anonymous Chat">
+    <meta name="twitter:description" content="Chat instantly with strangers in India! No sign-ups, just fun conversations.">
+    <meta name="twitter:image" content="https://randomchat-t6a1.onrender.com/Assets/instatwitter.jpg">
+
+    <!-- Structured Data (Schema Markup) for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "VibeMatchChat",
+      "url": "https://randomchat-t6a1.onrender.com",
+      "description": "India's most trusted anonymous chat platform. Chat instantly with strangers, no sign-up required.",
+      "image": "https://randomchat-t6a1.onrender.com/Assets/social-share.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "VibeMatchChat"
+      }
+    }
+    </script>
+
+    <!-- Preloading Key Resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Socket.io for Real-time Chat -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Login Screen -->
+        <div class="login-screen" id="loginScreen">
+            <h1>VibeMatchChat</h1>
+            <p>India's Best Anonymous Chat</p>
+            <input type="text" id="username" placeholder="Enter your name">
+            <select id="gender">
+                <option value="male">♂ Male</option>
+                <option value="female">♀ Female</option>
+            </select>
+            <button id="startChat">Start Chat</button>
+
+            <!-- Links for Modals -->
+            <div class="links">
+                <a  onclick=" window.location.href= 'about.html'">About</a> |
+                <a  onclick=" window.location.href= 'contact.html'">Contact</a>|
+                <a  onclick=" window.location.href= 'privacy.html'">Privacy</a>
+            </div>
+
+            <!-- Age Restriction -->
+            <p class="age-restriction"><strong>🔞 You must be 18+ to use VibeMatchChat.</strong></p>
+        </div>
+
+        <!-- Chat Screen -->
+        <div class="chat-screen hidden" id="chatScreen">
+            <div class="chat-header">
+                <h2>Chatting with <span id="partnerName">...</span></h2>
+                <button id="newChat">New Chat</button>
+            </div>
+            <div class="chat-box" id="chatBox"></div>
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type a message..." autocomplete="off">
+                <input type="file" id="imageInput" accept="image/*">
+                <button id="sendMessage">Send</button>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+</body>
+</html>

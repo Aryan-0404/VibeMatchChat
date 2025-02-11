@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /private
+Disallow: /chat-history
+Allow: /
+
+# Block modal-based URLs (if using query parameters like ?modal=about)
+Disallow: /*?modal=*
+
+# Allow assets for indexing
+Allow: /Assets/
+
+# Sitemap for search engines
+Sitemap: https://randomchat-t6a1.onrender.com/sitemap.xml
